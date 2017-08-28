@@ -1,4 +1,8 @@
 ```
+
+
+
+
 id |                 title                 | details | priority |         created_at         |       completed_at
 
 ----+---------------------------------------+---------+----------+----------------------------+----------------------
@@ -11,8 +15,10 @@ id |                 title                 | details | priority |         create
     | ials                                  |         |          |                            |
   6 | Connect friends to competition and GA |         |        6 | 2017-08-28 15:47:30.002585 |
   3 | Refresh litter box                    |         |        3 | 2017-08-28 15:47:30.002585 | 2017-08-28 15:50:49.6
-```
 
+
+```
+```
 -Created dir
 -Created Readme
 -created todo.sql
@@ -26,6 +32,7 @@ id |                 title                 | details | priority |         create
     task VARCHAR(100) NOT NULL,
     completion BOOLEAN NOT NULL DEFAULT 'f'
     );
+```
 -\d
 -INSERT INTO Todolist_Table (task) VALUES ('Renew License'), ('Connect panelists to AGC reps'), ('Refresh litter box'), ('Tidy the deck up'), ('Prep D&D materials'), ('Connect friends to competition and GA');
 -select task from todolist_table where completion = 'f';
